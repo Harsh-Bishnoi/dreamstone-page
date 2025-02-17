@@ -4,16 +4,20 @@
     /***** color *****/
     --bg-color: #EAEAF4;
     --color-dark: #1D252D;
-    --color-white-10:#FFFFFF1A;
-    --color-white-80:#FFFFFFCC;
-    --color-dark-25:#1D252D40;
+    --color-white-10: #FFFFFF1A;
+    --white-30: #FFFFFF4D;
+    --white-15: #FFFFFF26;
+    --color-white-50: #FFFFFF80;
+    --color-white-80: #FFFFFFCC;
+    --color-dark-25: #1D252D40;
+    --color-white: #FFFFFF;
+    --bg-grey-dark: #141414;
     /***** font-size *****/
-    --fs-extra-small: ;
-    --fs-sm: ;
-    --fs-base: ;
+    --fs-sm: 14px;
+    --fs-base: 18px;
     --fs-md: ;
-    --fs-lg: ;
-    --fs-xl: ;
+    --fs-lg: 48px;
+    --fs-xl: 88px;
 }
 
 /***** font-family *****/
@@ -30,10 +34,11 @@
     color: var(--color-dark);
 }
 
-/***** font-size *****/
-.fs-extra-small {
-    font-size: var(--fs-extra-small);
+.color-white-50 {
+    color: var(--color-white-50);
 }
+
+/***** font-size *****/
 
 .fs-sm {
     font-size: var(--fs-sm);
@@ -53,4 +58,17 @@
 
 .fs-xl {
     font-size: var(--fs-xl);
+}
+
+@media (max-width:991.98px) {
+    :root {
+        --fs-xl: 64px;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-lg: 38px;
+        --fs-xl: 48px;
+    }
 }
