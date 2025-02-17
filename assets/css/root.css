@@ -12,10 +12,11 @@
     --color-dark-25: #1D252D40;
     --color-white: #FFFFFF;
     --bg-grey-dark: #141414;
+    --grey-3: #E7E6EB;
+    --grey:#B0B1B7;
     /***** font-size *****/
     --fs-sm: 14px;
     --fs-base: 18px;
-    --fs-md: ;
     --fs-lg: 48px;
     --fs-xl: 88px;
 }
@@ -46,10 +47,6 @@
 
 .fs-base {
     font-size: var(--fs-base);
-}
-
-.fs-md {
-    font-size: var(--fs-md);
 }
 
 .fs-lg {

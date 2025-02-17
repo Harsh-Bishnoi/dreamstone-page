@@ -21,7 +21,10 @@
 <body class="bg-color">
     <!--***** header *****-->
     <header class="d-flex justify-content-center align-items-center flex-column position-relative">
-         <img src="./assets/image/png/header-stone-img.png" alt="" class="position-absolute z-n1 header-stone w-100 max-w-326">
+        <img src="./assets/image/png/header-stone-img.png" alt="stone-img"
+            class="position-absolute z-n1 header-stone w-100 max-w-326">
+        <img src="./assets/image/png/header-bg-blue-img.png" alt="layer"
+            class="position-absolute z-n1 header-layer w-100 d-sm-block d-none">
         <nav class="py-44 w-100">
             <div class="container max-w-1440">
                 <div class="d-flex align-items-center justify-content-between w-100">
@@ -32,13 +35,16 @@
                         class="d-flex mb-0 align-items-center nav-link list-unstyled justify-content-center justify-content-lg-between w-100">
                         <li>
                             <a href="#">
-                                <img class="d-none" src="" alt="nav-logo"></a>
+                                <img class="d-none" src="./assets/image/svg/nav-logo.svg" alt="nav-logo"></a>
                         </li>
                         <li class="nav-border">
                             <ul
                                 class="d-flex mb-0 align-items-center gap-32 list-unstyled justify-content-center flex-column flex-lg-row">
-                                <button class="nav-btn font-family-primary fs-6 fw-medium lh-24 color-dark border-0">Key
-                                    features</button>
+                                <li>
+                                    <button
+                                        class="nav-btn font-family-primary fs-6 fw-medium lh-24 color-dark border-0">Key
+                                        features</button>
+                                </li>
                                 <li><a class="text-decoration-none text-hover navbar-link font-family-primary fw-normal fs-6 lh-24 color-dark"
                                         href="/">Our tech-stack</a>
                                 </li>
@@ -203,18 +209,21 @@
                 <button class="free-btn font-family-primary fw-medium fs-6 lh-24 text-white border-0 mt-32">Get My Free
                     Trial</button>
             </div>
-            <img src="./assets/image/png/footer-layer.png" alt="layer" class="position-absolute layer z-n1 w-100 max-w-1440">
+            <img src="./assets/image/png/footer-layer.png" alt="layer"
+                class="position-absolute layer z-n1 w-100 max-w-1440">
             <div class="d-flex justify-content-center">
-                <img src="./assets/image/png/footer-stone.png" alt="" class="position-absolute stone-img z-n1 w-100 max-w-432">
+                <img src="./assets/image/png/footer-stone.png" alt=""
+                    class="position-absolute stone-img z-n1 w-100 max-w-432">
             </div>
+        </div>
     </section>
     <footer class="bg-black">
         <div class="container max-w-1440 pt-88">
             <div class="row">
-                <div class="col-2">
+                <div class="col-lg-2">
                     <img src="./assets/image/svg/footer-logo.svg" alt="logo">
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 mt-4 mt-lg-0">
                     <ul class="list-unstyled mb-0">
                         <li><a class="font-family-primary fw-normal fs-6 lh-24 text-white" href="">Key features</a></li>
                         <li class="mt-20"><a class="font-family-primary fw-normal fs-6 lh-24 text-white" href="">Our
@@ -225,7 +234,7 @@
                                 Easy Steps</a></li>
                     </ul>
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5 mt-4 mt-lg-0">
                     <div class="d-flex align-items-center">
                         <input class="email-input bg-black font-family-primary fw-normal fs-6 lh-24 color-white-50"
                             type="email" placeholder="Your email here">
@@ -235,7 +244,7 @@
                     <h4 class="font-family-primary fw-normal lh-19 fs-sm letter-spacing color-white-50 pt-17 mb-0">Stay
                         Ahead—Subscribe to Our Newsletter</h4>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 mt-4 mt-lg-0">
                     <div class="d-flex gap-32">
                         <img src="./assets/image/svg/footer-bbb-logo.svg" alt="logo" class="w-100 max-w-37">
                         <img src="./assets/image/svg/footer-trustpilot-logo.svg" alt="logo" class="w-100 max-w-100">
@@ -243,22 +252,28 @@
                 </div>
             </div>
             <div class="line max-w-1440 mt-164"></div>
-            <div class="d-flex align-items-center mt-32 justify-content-between pb-40">
-                <div class="d-flex align-items-center">
-                    <h4 class="font-family-primary fw-normal fs-6 lh-24 text-white border-right mb-0 pr-12">Linkedin
-                    </h4>
-                    <h4 class="font-family-primary fw-normal fs-6 lh-24 text-white border-right mb-0 px-12">Twitter</h4>
-                    <h4 class="font-family-primary fw-normal fs-6 lh-24 text-white mb-0 pl-12">Facebook</h4>
+            <div class="d-lg-flex align-items-center mt-32 justify-content-between pb-40">
+                <div class="d-flex align-items-center pb-4 pb-lg-0 justify-content-sm-center">
+                    <a href=""
+                        class="font-family-primary fw-normal fs-6 lh-24 text-white border-right mb-0 pr-12 text-decoration-none">Linkedin</a>
+                    <a href=""
+                        class="font-family-primary fw-normal fs-6 lh-24 text-white border-right mb-0 px-12 text-decoration-none">Twitter</a>
+                    <a href=""
+                        class="font-family-primary fw-normal fs-6 lh-24 text-white mb-0 pl-12 text-decoration-none">Facebook</a>
                 </div>
-                <div class="d-flex align-items-center">
-                    <a class="font-family-primary fw-normal fs-6 lh-24 text-white border-right pr-12 mr-12 mb-0"
-                        href="">Terms &
-                        Conditions</a>
-                    <a class="font-family-primary fw-normal fs-6 lh-24 text-white mb-0" href="">Privacy
-                        Policy</a>
+                <div class="line max-w-1440 mt-40 d-none d-sm-block d-lg-none"></div>
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center mt-4 mt-lg-0">
+                        <a class="font-family-primary fw-normal fs-6 lh-24 text-white border-right pr-12 mr-12 mb-0"
+                            href="">Terms &
+                            Conditions</a>
+                        <a class="font-family-primary fw-normal fs-6 lh-24 text-white mb-0" href="">Privacy
+                            Policy</a>
+                    </div>
+                    <h5 class="font-family-primary fw-normal fs-6 lh-24 color-white-50 mb-0 mt-3 mt-md-4 mt-lg-0">2025
+                        Dreamstone Group , Inc
+                    </h5>
                 </div>
-                <h5 class="font-family-primary fw-normal fs-6 lh-24 color-white-50 mb-0">2025 Dreamstone Group , Inc
-                </h5>
             </div>
         </div>
     </footer>

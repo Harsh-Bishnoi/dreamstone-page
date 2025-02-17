@@ -160,7 +160,9 @@
     margin-top: 40px;
 }
 
-
+.header-layer {
+    top: 30px;
+}
 
 /* section */
 
@@ -215,7 +217,7 @@
 
 .slider-box:hover .step-btn {
     background-color: var(--bg-grey-dark);
-    color: white;
+    color: var(--color-white);
 }
 
 .slider-box:hover::before {
@@ -234,6 +236,23 @@
 .slick-track {
     display: flex !important;
     gap: 16px;
+}
+
+.slick-slide {
+    height: inherit !important;
+}
+
+
+
+.slick-dots li button::before {
+    font-size: 12px !important;
+    color: var(--grey-3) !important;
+    opacity: 100% !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--grey) !important;
+    opacity: 100% !important;
 }
 
 .letter-spacing-2 {
