@@ -59,7 +59,12 @@
     border-radius: 50px;
     padding: 12px 24px 12px 24px;
     background: var(--color-white-10);
-    border: 1px solid var(--color-dark-25)
+    border: 1px solid var(--color-dark-25);
+    transition: all 200ms linear;
+}
+
+.nav-btn-2:hover {
+    background-color: var(--color-white);
 }
 
 .text-hover {
@@ -129,7 +134,14 @@
     border-radius: 34px;
     padding: 8px 14px 8px 14px;
     background: var(--white-15, #FFFFFF26);
-    border: 1px solid var(--white-40, #FFFFFF66)
+    transition: all 200ms linear;
+    border: 1px solid var(--white-40, #FFFFFF66);
+}
+
+.complete-btn:hover,
+.get-btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-blue) !important;
 }
 
 .max-w-326 {
@@ -171,6 +183,7 @@
     padding: 16px 24px 16px 24px;
     border-radius: 50px;
     background-color: var(--color-dark);
+    transition: all 200ms linear;
 }
 
 .mt-40 {
