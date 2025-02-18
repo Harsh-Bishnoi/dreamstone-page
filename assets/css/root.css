@@ -16,7 +16,7 @@
     --bg-grey-dark: #141414;
     --grey-3: #E7E6EB;
     --grey: #B0B1B7;
-    --color-blue:#3450D6;
+    --color-blue: #3450D6;
     /***** font-size *****/
     --fs-sm: 14px;
     --fs-base: 18px;
@@ -29,6 +29,7 @@
 .font-family-primary {
     font-family: var(--font-family-primary);
 }
+
 .font-family-second {
     font-family: var(--font-family-second);
 }
@@ -77,6 +78,7 @@
 @media (max-width:575.98px) {
     :root {
         --fs-lg: 38px;
+        --fs-xl: 48px;
         --fs-2xl: 48px;
     }
 }
