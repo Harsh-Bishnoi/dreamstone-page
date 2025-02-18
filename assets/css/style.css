@@ -161,7 +161,11 @@
 }
 
 .header-layer {
-    top: 30px;
+    top: 3px;
+}
+
+.header-stone-img {
+    animation: up-and-down 3s ease-in-out infinite;
 }
 
 /* section */
@@ -242,8 +246,6 @@
     height: inherit !important;
 }
 
-
-
 .slick-dots li button::before {
     font-size: 12px !important;
     color: var(--grey-3) !important;
@@ -286,19 +288,6 @@
 .max-w-432 {
     max-width: 432px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 .pt-88 {
@@ -368,10 +357,6 @@
     padding-bottom: 40px;
 }
 
-.ml-12 {
-    margin-left: 12px;
-}
-
 .mr-12 {
     margin-right: 12px;
 }
@@ -426,5 +411,12 @@
 
     .lh-54 {
         line-height: 40px;
+    }
+}
+
+
+@keyframes up-and-down {
+    50% {
+        transform: translateY(-20px);
     }
 }
