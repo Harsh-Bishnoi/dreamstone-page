@@ -1,7 +1,6 @@
 :root {
     /* font-family */
     --font-family-primary: "Golos Text", serif;
-    --font-family-second: "SF Pro Text", sans-serif;
     /***** color *****/
     --bg-color: #EAEAF4;
     --color-dark: #1D252D;

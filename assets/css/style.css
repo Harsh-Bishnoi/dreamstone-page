@@ -1,6 +1,5 @@
 @import url(./root.css);
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 
 .max-w-1440 {
     max-width: 1440px !important;
@@ -221,11 +220,6 @@
 
 .mt-198 {
     margin-top: 198px;
-}
-
-.px-32-15 {
-    padding-left: 32px;
-    padding-right: 15px;
 }
 
 .header-line {
@@ -482,10 +476,6 @@
 
     .lh-88 {
         line-height: 64px;
-    }
-
-    .py-44 {
-        padding-top: 6px;
     }
 
     .header-line {

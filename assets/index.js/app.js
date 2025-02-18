@@ -8,7 +8,6 @@ const navbarbtn = () => {
 
 $('.my-slider').slick({
     dots: false,
-    infinite: true,
     arrows: false,
     speed: 300,
     slidesToShow: 5,
@@ -36,6 +35,7 @@ $('.my-slider').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                centerMode: true,
                 dots: true
             }
         }
