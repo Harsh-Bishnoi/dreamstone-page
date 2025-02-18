@@ -7,6 +7,8 @@
     --color-dark: #1D252D;
     --color-white-10: #FFFFFF1A;
     --white-30: #FFFFFF4D;
+    --white-40: #FFFFFF66;
+    --white-60: #FFFFFF99;
     --white-15: #FFFFFF26;
     --color-white-50: #FFFFFF80;
     --color-white-80: #FFFFFFCC;
@@ -15,8 +17,9 @@
     --color-white: #FFFFFF;
     --bg-grey-dark: #141414;
     --grey-3: #E7E6EB;
+    --grey-5: #CCCADA;
     --grey: #B0B1B7;
-    --color-blue: #3450D6;
+    --color-blue: #314FD7;
     /***** font-size *****/
     --fs-sm: 14px;
     --fs-base: 18px;

@@ -133,9 +133,9 @@
 .complete-btn {
     border-radius: 34px;
     padding: 8px 14px 8px 14px;
-    background: var(--white-15, #FFFFFF26);
+    background: var(--white-15);
     transition: all 200ms linear;
-    border: 1px solid var(--white-40, #FFFFFF66);
+    border: 1px solid var(--white-40);
 }
 
 .complete-btn:hover,
@@ -153,7 +153,7 @@
 }
 
 .heading {
-    background: linear-gradient(203.15deg, #FFFFFF 30.4%, #314FD7 115.77%);
+    background: linear-gradient(203.15deg, var(--color-white) 30.4%, var(--color-blue) 115.77%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -178,8 +178,8 @@
     border-radius: 6px;
     padding: 8px 16px 8px 16px;
     gap: 10px;
-    background: var(--white-10, #FFFFFF1A);
-    border: 1px solid var(--white-30, #FFFFFF4D)
+    background: var(--color-white-10);
+    border: 1px solid var(--white-30)
 }
 
 .mt-81 {
@@ -229,12 +229,12 @@
 }
 
 .header-line {
-    border: 1px solid var(--Grey-3, #E7E6EB);
+    border: 1px solid var(--grey-3);
     margin-top: 148px;
 }
 
 .header-line-2 {
-    border: 1px solid var(--Grey-3, #E7E6EB)
+    border: 1px solid var(--grey-3)
 }
 
 /* section */
@@ -242,8 +242,8 @@
 .five-steps-btn {
     border-radius: 34px;
     padding: 8px 14px 8px 14px;
-    background: var(--white-60, #FFFFFF99);
-    border: 1px solid var(--Grey-5, #CCCADA)
+    background: var(--white-60);
+    border: 1px solid var(--Grey-5)
 }
 
 .gap-10 {
@@ -300,7 +300,7 @@
     inset: 0;
     border-radius: 8px;
     padding: 1px;
-    background: linear-gradient(0deg, #FFFFFF 0%, #E2E0FD 100%);
+    background: linear-gradient(0deg, var(--color-white) 0%, #E2E0FD 100%);
     mask:
         linear-gradient(#000 0 0) content-box,
         linear-gradient(#000 0 0);
@@ -337,7 +337,7 @@
 }
 
 .slider-parent {
-    background: var(--white-40, #FFFFFF66);
+    background: var(--white-40);
     border-radius: 16px;
 }
 
@@ -407,7 +407,7 @@
     border: 1px solid var(--color-white)
 }
 
-.subscribe-btn:hover{
+.subscribe-btn:hover {
     color: var(--color-blue) !important;
 }
 
